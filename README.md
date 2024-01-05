@@ -1,25 +1,26 @@
-Please make a native iOS application that finds local Starbucks locations via any Google API.
+# Starbucks Locator App
 
-The app should meet the following requirements:
+## Overview
+
+This iOS application is a Starbucks locator that helps users find local Starbucks locations using the Nominatim API.
+
+## Features
 
 - Display a list of locally found Starbucks locations.
+- Each item in the list is tappable.
+- On tap, a Map View opens with a pin drop to show the selected Starbucks location.
+- Provides a way to return to the list view from the map view.
 
-Additional notes:
+## Requirements
 
-- Application must be written entirely in Swift and SwiftUI.
+- Written entirely in Swift and SwiftUI.
+- Fully functioning API request/response logic using native libraries (no 3rd party libraries).
+- Compiles and runs correctly in the iPhone Simulator.
+- Uses the MVVM architectural pattern.
 
-- Application should include fully functioning API request/response logic using native libraries (no 3rd party libraries).
+## Installation
 
-- Application must compile and run correctly in the iPhone Simulator (physical device verification not needed).
+1. Clone the repository:
 
-- Use any architectural pattern of your choice.
-
-- UI can be a simple table view with address(title) and distance(subtitle).
-
-Bonus:
-
-- Each item in the list should be tappable.
-
-- On tap a Map View should open with a pin drop to show the selected Starbucks location.
-
-- There should be a way to return to the list view from the map view.
+```bash
+git clone https://github.com/saurabhinfo/CloudAngles.git
