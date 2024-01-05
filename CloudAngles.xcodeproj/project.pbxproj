@@ -14,6 +14,12 @@
 		DC4043C52B48300D005E0FAB /* CloudAnglesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4043C42B48300D005E0FAB /* CloudAnglesTests.swift */; };
 		DC4043CF2B48300D005E0FAB /* CloudAnglesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4043CE2B48300D005E0FAB /* CloudAnglesUITests.swift */; };
 		DC4043D12B48300D005E0FAB /* CloudAnglesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4043D02B48300D005E0FAB /* CloudAnglesUITestsLaunchTests.swift */; };
+		DC4043E12B483070005E0FAB /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4043E02B483070005E0FAB /* LocationModel.swift */; };
+		DC4043E32B48307F005E0FAB /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4043E22B48307F005E0FAB /* LocationsViewModel.swift */; };
+		DC4043E52B483091005E0FAB /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4043E42B483091005E0FAB /* LocationListView.swift */; };
+		DC4043E72B4830B8005E0FAB /* LocationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4043E62B4830B8005E0FAB /* LocationRowView.swift */; };
+		DC4043E92B4830C5005E0FAB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4043E82B4830C5005E0FAB /* MapView.swift */; };
+		DC4043EB2B48360C005E0FAB /* GooglePlacesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4043EA2B48360C005E0FAB /* GooglePlacesResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		DC4043CA2B48300D005E0FAB /* CloudAnglesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudAnglesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4043CE2B48300D005E0FAB /* CloudAnglesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudAnglesUITests.swift; sourceTree = "<group>"; };
 		DC4043D02B48300D005E0FAB /* CloudAnglesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudAnglesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC4043E02B483070005E0FAB /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		DC4043E22B48307F005E0FAB /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		DC4043E42B483091005E0FAB /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
+		DC4043E62B4830B8005E0FAB /* LocationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRowView.swift; sourceTree = "<group>"; };
+		DC4043E82B4830C5005E0FAB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		DC4043EA2B48360C005E0FAB /* GooglePlacesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +106,9 @@
 		DC4043B22B48300A005E0FAB /* CloudAngles */ = {
 			isa = PBXGroup;
 			children = (
+				DC4043DD2B48302C005E0FAB /* Models */,
+				DC4043DF2B48304A005E0FAB /* Views */,
+				DC4043DE2B483035005E0FAB /* ViewModels */,
 				DC4043B32B48300A005E0FAB /* CloudAnglesApp.swift */,
 				DC4043B52B48300A005E0FAB /* ContentView.swift */,
 				DC4043B72B48300D005E0FAB /* Assets.xcassets */,
@@ -125,6 +140,33 @@
 				DC4043D02B48300D005E0FAB /* CloudAnglesUITestsLaunchTests.swift */,
 			);
 			path = CloudAnglesUITests;
+			sourceTree = "<group>";
+		};
+		DC4043DD2B48302C005E0FAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DC4043E02B483070005E0FAB /* LocationModel.swift */,
+				DC4043EA2B48360C005E0FAB /* GooglePlacesResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DC4043DE2B483035005E0FAB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DC4043E22B48307F005E0FAB /* LocationsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DC4043DF2B48304A005E0FAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC4043E42B483091005E0FAB /* LocationListView.swift */,
+				DC4043E62B4830B8005E0FAB /* LocationRowView.swift */,
+				DC4043E82B4830C5005E0FAB /* MapView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC4043E92B4830C5005E0FAB /* MapView.swift in Sources */,
+				DC4043EB2B48360C005E0FAB /* GooglePlacesResponse.swift in Sources */,
+				DC4043E72B4830B8005E0FAB /* LocationRowView.swift in Sources */,
 				DC4043B62B48300A005E0FAB /* ContentView.swift in Sources */,
+				DC4043E52B483091005E0FAB /* LocationListView.swift in Sources */,
+				DC4043E12B483070005E0FAB /* LocationModel.swift in Sources */,
 				DC4043B42B48300A005E0FAB /* CloudAnglesApp.swift in Sources */,
+				DC4043E32B48307F005E0FAB /* LocationsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +477,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +506,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
