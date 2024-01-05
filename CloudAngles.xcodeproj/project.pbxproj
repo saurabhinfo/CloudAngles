@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC4043B42B48300A005E0FAB /* CloudAnglesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4043B32B48300A005E0FAB /* CloudAnglesApp.swift */; };
+		DC4043B62B48300A005E0FAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4043B52B48300A005E0FAB /* ContentView.swift */; };
+		DC4043B82B48300D005E0FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4043B72B48300D005E0FAB /* Assets.xcassets */; };
+		DC4043BB2B48300D005E0FAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4043BA2B48300D005E0FAB /* Preview Assets.xcassets */; };
+		DC4043C52B48300D005E0FAB /* CloudAnglesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4043C42B48300D005E0FAB /* CloudAnglesTests.swift */; };
+		DC4043CF2B48300D005E0FAB /* CloudAnglesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4043CE2B48300D005E0FAB /* CloudAnglesUITests.swift */; };
+		DC4043D12B48300D005E0FAB /* CloudAnglesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4043D02B48300D005E0FAB /* CloudAnglesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC4043C12B48300D005E0FAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC4043A82B483009005E0FAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC4043AF2B48300A005E0FAB;
+			remoteInfo = CloudAngles;
+		};
+		DC4043CB2B48300D005E0FAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC4043A82B483009005E0FAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC4043AF2B48300A005E0FAB;
+			remoteInfo = CloudAngles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC4043B02B48300A005E0FAB /* CloudAngles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudAngles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4043B32B48300A005E0FAB /* CloudAnglesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudAnglesApp.swift; sourceTree = "<group>"; };
+		DC4043B52B48300A005E0FAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC4043B72B48300D005E0FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC4043BA2B48300D005E0FAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC4043C02B48300D005E0FAB /* CloudAnglesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudAnglesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4043C42B48300D005E0FAB /* CloudAnglesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudAnglesTests.swift; sourceTree = "<group>"; };
+		DC4043CA2B48300D005E0FAB /* CloudAnglesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudAnglesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4043CE2B48300D005E0FAB /* CloudAnglesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudAnglesUITests.swift; sourceTree = "<group>"; };
+		DC4043D02B48300D005E0FAB /* CloudAnglesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudAnglesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC4043AD2B48300A005E0FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4043BD2B48300D005E0FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4043C72B48300D005E0FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC4043A72B483009005E0FAB = {
+			isa = PBXGroup;
+			children = (
+				DC4043B22B48300A005E0FAB /* CloudAngles */,
+				DC4043C32B48300D005E0FAB /* CloudAnglesTests */,
+				DC4043CD2B48300D005E0FAB /* CloudAnglesUITests */,
+				DC4043B12B48300A005E0FAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC4043B12B48300A005E0FAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC4043B02B48300A005E0FAB /* CloudAngles.app */,
+				DC4043C02B48300D005E0FAB /* CloudAnglesTests.xctest */,
+				DC4043CA2B48300D005E0FAB /* CloudAnglesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC4043B22B48300A005E0FAB /* CloudAngles */ = {
+			isa = PBXGroup;
+			children = (
+				DC4043B32B48300A005E0FAB /* CloudAnglesApp.swift */,
+				DC4043B52B48300A005E0FAB /* ContentView.swift */,
+				DC4043B72B48300D005E0FAB /* Assets.xcassets */,
+				DC4043B92B48300D005E0FAB /* Preview Content */,
+			);
+			path = CloudAngles;
+			sourceTree = "<group>";
+		};
+		DC4043B92B48300D005E0FAB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC4043BA2B48300D005E0FAB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC4043C32B48300D005E0FAB /* CloudAnglesTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC4043C42B48300D005E0FAB /* CloudAnglesTests.swift */,
+			);
+			path = CloudAnglesTests;
+			sourceTree = "<group>";
+		};
+		DC4043CD2B48300D005E0FAB /* CloudAnglesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC4043CE2B48300D005E0FAB /* CloudAnglesUITests.swift */,
+				DC4043D02B48300D005E0FAB /* CloudAnglesUITestsLaunchTests.swift */,
+			);
+			path = CloudAnglesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC4043AF2B48300A005E0FAB /* CloudAngles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4043D42B48300D005E0FAB /* Build configuration list for PBXNativeTarget "CloudAngles" */;
+			buildPhases = (
+				DC4043AC2B48300A005E0FAB /* Sources */,
+				DC4043AD2B48300A005E0FAB /* Frameworks */,
+				DC4043AE2B48300A005E0FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudAngles;
+			productName = CloudAngles;
+			productReference = DC4043B02B48300A005E0FAB /* CloudAngles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC4043BF2B48300D005E0FAB /* CloudAnglesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4043D72B48300D005E0FAB /* Build configuration list for PBXNativeTarget "CloudAnglesTests" */;
+			buildPhases = (
+				DC4043BC2B48300D005E0FAB /* Sources */,
+				DC4043BD2B48300D005E0FAB /* Frameworks */,
+				DC4043BE2B48300D005E0FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC4043C22B48300D005E0FAB /* PBXTargetDependency */,
+			);
+			name = CloudAnglesTests;
+			productName = CloudAnglesTests;
+			productReference = DC4043C02B48300D005E0FAB /* CloudAnglesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC4043C92B48300D005E0FAB /* CloudAnglesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4043DA2B48300D005E0FAB /* Build configuration list for PBXNativeTarget "CloudAnglesUITests" */;
+			buildPhases = (
+				DC4043C62B48300D005E0FAB /* Sources */,
+				DC4043C72B48300D005E0FAB /* Frameworks */,
+				DC4043C82B48300D005E0FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC4043CC2B48300D005E0FAB /* PBXTargetDependency */,
+			);
+			name = CloudAnglesUITests;
+			productName = CloudAnglesUITests;
+			productReference = DC4043CA2B48300D005E0FAB /* CloudAnglesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC4043A82B483009005E0FAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DC4043AF2B48300A005E0FAB = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					DC4043BF2B48300D005E0FAB = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = DC4043AF2B48300A005E0FAB;
+					};
+					DC4043C92B48300D005E0FAB = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = DC4043AF2B48300A005E0FAB;
+					};
+				};
+			};
+			buildConfigurationList = DC4043AB2B483009005E0FAB /* Build configuration list for PBXProject "CloudAngles" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC4043A72B483009005E0FAB;
+			productRefGroup = DC4043B12B48300A005E0FAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC4043AF2B48300A005E0FAB /* CloudAngles */,
+				DC4043BF2B48300D005E0FAB /* CloudAnglesTests */,
+				DC4043C92B48300D005E0FAB /* CloudAnglesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC4043AE2B48300A005E0FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4043BB2B48300D005E0FAB /* Preview Assets.xcassets in Resources */,
+				DC4043B82B48300D005E0FAB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4043BE2B48300D005E0FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4043C82B48300D005E0FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC4043AC2B48300A005E0FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4043B62B48300A005E0FAB /* ContentView.swift in Sources */,
+				DC4043B42B48300A005E0FAB /* CloudAnglesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4043BC2B48300D005E0FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4043C52B48300D005E0FAB /* CloudAnglesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4043C62B48300D005E0FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4043D12B48300D005E0FAB /* CloudAnglesUITestsLaunchTests.swift in Sources */,
+				DC4043CF2B48300D005E0FAB /* CloudAnglesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC4043C22B48300D005E0FAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC4043AF2B48300A005E0FAB /* CloudAngles */;
+			targetProxy = DC4043C12B48300D005E0FAB /* PBXContainerItemProxy */;
+		};
+		DC4043CC2B48300D005E0FAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC4043AF2B48300A005E0FAB /* CloudAngles */;
+			targetProxy = DC4043CB2B48300D005E0FAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DC4043D22B48300D005E0FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC4043D32B48300D005E0FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC4043D52B48300D005E0FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CloudAngles/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CloudAngles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC4043D62B48300D005E0FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CloudAngles/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CloudAngles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC4043D82B48300D005E0FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CloudAnglesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudAngles.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CloudAngles";
+			};
+			name = Debug;
+		};
+		DC4043D92B48300D005E0FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CloudAnglesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudAngles.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CloudAngles";
+			};
+			name = Release;
+		};
+		DC4043DB2B48300D005E0FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CloudAnglesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudAngles;
+			};
+			name = Debug;
+		};
+		DC4043DC2B48300D005E0FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CloudAnglesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudAngles;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC4043AB2B483009005E0FAB /* Build configuration list for PBXProject "CloudAngles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4043D22B48300D005E0FAB /* Debug */,
+				DC4043D32B48300D005E0FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC4043D42B48300D005E0FAB /* Build configuration list for PBXNativeTarget "CloudAngles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4043D52B48300D005E0FAB /* Debug */,
+				DC4043D62B48300D005E0FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC4043D72B48300D005E0FAB /* Build configuration list for PBXNativeTarget "CloudAnglesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4043D82B48300D005E0FAB /* Debug */,
+				DC4043D92B48300D005E0FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC4043DA2B48300D005E0FAB /* Build configuration list for PBXNativeTarget "CloudAnglesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4043DB2B48300D005E0FAB /* Debug */,
+				DC4043DC2B48300D005E0FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC4043A82B483009005E0FAB /* Project object */;
+}
